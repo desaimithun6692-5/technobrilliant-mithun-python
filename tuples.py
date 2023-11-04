@@ -31,11 +31,5 @@ print(student["parents"])
 print(student.get("name"))
 print(student.get("course", "default"))
 
-Dic
 
-employee :
-
-name
-salary
-departemts
 
