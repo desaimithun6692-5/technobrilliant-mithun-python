@@ -30,32 +30,51 @@
 
 # Nested loops
 
-for i in range(1, 11):
-    for j in range(1, 11):
-        print(f'{i} * {j} = {i * j}')
+# for i in range(1, 11):
+#     for j in range(1, 11):
+#         print(f'{i} * {j} = {i * j}')
+#
+# # 2 d list
+# list = [1, 2, 3]
+# matrix = [
+#     [1, 2, 3],
+#     [4, 5, 6],
+#     [7, 8, 9]
+# ]
+#
+# for row in matrix:
+#     for i in row:
+#         print(i)
+#
+# for row in matrix:
+#     print(row)
+#
+#
+#
+# sum = 0
+# for row in matrix:
+#     for i in row:
+#        sum+=i
+#
+#
+#
+#
+#
+# print(sum)
+#
+# print(matrix[1][2])
+# print(matrix[2][1])
 
-# 2 d list
-list = [1, 2, 3]
 matrix = [
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9]
 ]
 
+max = 0
 for row in matrix:
     for i in row:
-        print(i)
-
-for row in matrix:
-    print(row)
-
-sum = 0
-for row in matrix:
-    for i in row:
-       sum+=i
-
-print(sum)
-
-print(matrix[1][2])
-print(matrix[2][1])
-
+        if max < i:
+            print("inside loop", i)
+            max = i
+print(max)

@@ -1,6 +1,6 @@
 list = [10, 20, 30, 40, 40]
 
-list[0]=800
+list[0] = 800
 print(list)
 
 print(list.append(80))
@@ -28,5 +28,3 @@ list.sort()
 list.clear()
 
 print(list)
-
-

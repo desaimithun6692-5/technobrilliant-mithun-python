@@ -15,4 +15,7 @@ for i in range(0,len(text)):
 print(count)
 
 
-example = [10,20,30,40,50]  # count ,sum 
+example = [10,20,30,40,50]  # count ,sum
+
+
+
